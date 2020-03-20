@@ -1,0 +1,11 @@
+.project-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+
+    .project {
+      padding-right: 14px;
+      text-align: center;
+    }
+}
+
