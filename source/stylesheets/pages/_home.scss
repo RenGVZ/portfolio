@@ -1,11 +1,23 @@
 .project-list {
-  display: flex;
-  justify-content: space-evenly;
+  // display: flex;
+  // justify-content: space-evenly;
   padding: 16px;
+  margin-left: 250px;
 
     .project {
       padding-right: 14px;
       text-align: center;
     }
+}
+
+.kiota-img {
+  height: 400px;
+  width: 250px;
+}
+
+.cocktail-img {
+  padding-top: 20px;
+  height: 380px;
+  width: 450px;
 }
 
