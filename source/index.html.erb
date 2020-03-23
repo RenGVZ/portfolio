@@ -2,30 +2,53 @@
 title: Gavin Garza
 name: Gavin
 ---
+<nav>
+  <a href="#1">About</a>
+  <a href="#2">Projects</a>
+  <a href="#3">Contact</a>
+</nav>
+  <div class="scrolling-box">
+    <section id="1">
+      <div class="welcome text-left padded">
+        <h1>Who am I?</h1><hr>
+        <p> Full Stack Developer, Constant Tinkerer, etc., etc.</p>
+        <p><%= lorem.paragraphs 5 %></p>
+        <p>Bitch I'm <%= current_page.data.name %></p>
+      </div>
+    </section>
 
-<div class="welcome text-center padded">
-  <h1>Who am I?</h1>
-  <p> Full Stack Developer, Constant Tinkerer, etc., etc.
-  <p>Bitch I'm <%= current_page.data.name %></p>
-</div>
+    <section id="2">
+      <div class="project-list text-left">
+        <div class="header">
+          <h1>My projects</h1><hr>
+        </div>
+        <div class="project pro1">
+          <h1>This is the first project</h1>
+          <%= image_tag 'kiota1.jpeg', class: 'kiota-img' %>
+          <p>This is the content</p>
+        </div>
+        
 
-<div class="project-list bg-green">
-  <div class="project pro1">
-      <h1>This is the first project</h1>
-      <%= image_tag 'kiota1.jpeg', class: 'kiota-img' %>
-      <p>This is the content</p>
+        <div class="project pro2">
+          <h1>This is the second project</h1>
+          <%= image_tag 'cocktail1.png', class: 'cocktail-img' %>
+          <p>This is the content</p>
+        </div>
+
+        <div class="project pro3">
+          <h1>This is the third project</h1>
+          <%= image_tag 'game_exchange1.png', class: 'cocktail-img' %>
+          <p>This is the content</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="3">
+      <div class="contact text-left">
+        <div class="header">
+          <h1>Contact</h1><hr>
+        </div>
+      </div>
+    </section>
+
   </div>
-  
-
-  <div class="project pro2">
-    <h1>This is the second project</h1>
-    <%= image_tag 'cocktail1.png', class: 'cocktail-img' %>
-    <p>This is the content</p>
-  </div>
-
-  <div class="project pro3">
-    <h1>This is the third project</h1>
-    <%= image_tag 'game_exchange1.png', class: 'cocktail-img' %>
-    <p>This is the content</p>
-  </div>
-</div>

@@ -1,11 +1,49 @@
-.project-list {
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  margin-left: 55%;
+  padding: 1em 0;
+  text-align: center;
+  width: auto;
+}
+
+nav a {
+  color: black;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.scrolling-box {
+  background-color: #eaeaea;
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+  width: 100%;
+}
+
+section {
   // display: flex;
-  // justify-content: space-evenly;
-  padding: 16px;
-  margin-left: 250px;
+  align-items: center;
+  justify-content: center;
+  // height: 100vh;
+}
+
+.welcome {
+  margin-left: 25%;
+  height: 100vh;
+    h1 {
+      text-align: left;
+    }
+}
+
+.project-list {
+  margin-left: 25%;
+  height: 200vh;
 
     .project {
-      padding-right: 14px;
       text-align: center;
     }
 }
@@ -21,3 +59,7 @@
   width: 450px;
 }
 
+.contact {
+  margin-left: 25%;
+  height: 300vh;
+}
