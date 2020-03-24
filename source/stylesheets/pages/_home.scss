@@ -15,6 +15,15 @@ nav a {
   text-decoration: none;
 }
 
+.landing {
+  height: 100vh;
+}
+
+.lan-img {
+  background-size: cover;
+  background-position: center;
+}
+
 .scrolling-box {
   background-color: #eaeaea;
   display: block;
@@ -33,7 +42,7 @@ section {
 
 .welcome {
   margin-left: 25%;
-  height: 100vh;
+  height: 200vh;
     h1 {
       text-align: left;
     }
@@ -41,7 +50,7 @@ section {
 
 .project-list {
   margin-left: 25%;
-  height: 200vh;
+  height: 300vh;
 
     .project {
       text-align: center;
@@ -61,5 +70,5 @@ section {
 
 .contact {
   margin-left: 25%;
-  height: 300vh;
+  height: 400vh;
 }
