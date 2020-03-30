@@ -4,27 +4,12 @@
   overflow-y: scroll;
   scroll-behavior: smooth;
   text-align: center;
-  width: 100%;
-}
-
-section {
-  // display: flex;
-  align-items: center;
-  justify-content: center;
-  // height: 100vh;
-}
-
-.welcome {
-  margin-left: 25%;
-  height: 200vh;
-    h1 {
-      text-align: left;
-    }
+  margin-left: 20%;
 }
 
 .project-list {
-  margin-left: 25%;
-  height: 300vh;
+  
+  // height: 300vh;
 
     .project {
       text-align: center;
@@ -44,5 +29,4 @@ section {
 
 .contact {
   margin-left: 25%;
-  height: 400vh;
 }
