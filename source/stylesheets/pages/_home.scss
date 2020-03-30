@@ -1,27 +1,6 @@
-nav {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  margin-left: 55%;
-  padding: 1em 0;
-  text-align: center;
-  width: auto;
-}
-
-nav a {
-  color: black;
-  margin: 0 1em;
-  text-decoration: none;
-}
-
 .landing {
   height: 100vh;
-}
-
-.lan-img {
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(#BD9589, #9C7D61);
 }
 
 .scrolling-box {
