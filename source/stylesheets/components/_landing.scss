@@ -4,22 +4,32 @@
   margin-left: 20%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .landing-info {
   display: flex;
   flex-flow: column;
   margin-top: 10%;
+  // text-align: center;
 }
 
-.landing-info h1{
+.description {
+  margin: 10%; 
+  text-align: center;
   color: white;
+
+  p {
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 555px) {
   .landing {
     margin-left: 0%;
-    height: 50vh;
+    height: 100vh;
+    padding-top: 10%;
   }
 
   .landing-info {
