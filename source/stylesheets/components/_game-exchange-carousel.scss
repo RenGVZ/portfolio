@@ -1,0 +1,31 @@
+.project-game {
+  background: linear-gradient(#BD8F7A, #BD9589);
+  overflow-y: scroll;
+}
+#gameCarousel {
+  width: 800px;
+  // position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.game-carousel-img {
+  height: 800px;
+  width: 800px;
+}
+
+#game-inner {
+  margin-left: 16%;
+}
+
+#r {
+  position: absolute;
+  left: 10%;
+}
+
+#l {
+  position: absolute;
+  left: 122%;
+
+}

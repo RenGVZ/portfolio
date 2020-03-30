@@ -5,53 +5,32 @@ name: Gavin
 <section id="1">
   <div class="landing">
     <div class="landing-info">
-      <div class="avatar-position"></div>
-        <%= image_tag 'avatar.jpg', class: 'avatar' %>
-      </div>
-      <div class="description">
-        <h1> Developer | Based in Tokyo </h1>
-        <p>Hi my name is Gavin and I'm a Full Stack Developer living in Tokyo. The technologies I have experience with are: <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS,</strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. </p>
-        <p><strong>Scroll down to check out some of my previous projects!</strong></p>
-      </div>
-      <i class="fas fa-arrow-circle-down" style="font-size: 70px; color: white;"></i>
+      <%= image_tag 'avatar.jpg', class: 'avatar' %>
     </div>
+    <div class="description">
+      <h1> Developer | Based in Tokyo </h1>
+      <p>Hi my name is Gavin and I'm a Full Stack Developer living in Tokyo. The technologies I have experience with are: <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS,</strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. </p>
+      <p><strong>Scroll down to check out some of my previous projects!</strong></p>
+    </div>
+    <i class="fas fa-arrow-circle-down" style="font-size: 70px; color: white;"></i>
   </div>
 </section>
-<div class="scrolling-box">
+<div class="project-list">
+  <div class="header">
+    <h1>My projects</h1><hr>
+  </div>
   <section id="2">
-      <div class="header">
-        <h1>My projects</h1><hr style="border-color: inherit">
-      </div>
-      <div class="project">
-        <h1>This is the first project</h1>
-        <%= image_tag 'kiota1.jpeg', class: 'kiota-img' %>
-        <p>This is the content</p>
-      </div>
+    <div class="project">
+    <div class="header">
+      <h1>Kiota</h1><hr>
+    </div>
+      <%= partial 'partials/kiota' %>
+    </div>
   </section>
 
   <section id="3">
-      <div class="project">
-        <h1>This is the second project</h1>
-        <%= image_tag 'cocktail1.png', class: 'cocktail-img' %>
-        <p>This is the content</p>
-      </div>
-  </section>
-
-  <section id="4">
-      <div class="project">
-        <h1>This is the third project</h1>
-        <%= image_tag 'game_exchange1.png', class: 'cocktail-img' %>
-        <p>This is the content</p>
-      </div>
+    <div class="project-game">
+      <%= partial 'partials/game-exchange' %>
     </div>
   </section>
-
-  <section id="5">
-    <div class="contact text-left">
-      <div class="header">
-        <h1>Contact</h1><hr>
-      </div>
-    </div>
-  </section>
-
 </div>
