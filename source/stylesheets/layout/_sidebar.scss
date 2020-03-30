@@ -64,3 +64,9 @@
   color: white;
   font-size: 26px;
 }
+
+@media (max-width: 555px) {
+  .sidebar {  
+    display: none;
+  }
+}
