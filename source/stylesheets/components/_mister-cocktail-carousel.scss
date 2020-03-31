@@ -1,11 +1,10 @@
 .project-cocktail {
-  background: linear-gradient(#BD8F7A, #BD9589);
+  background: linear-gradient(#BD9488, #78765D);
   overflow-y: scroll;
 }
 
 #cocktailCarousel {
   width: 800px;
-  // position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
@@ -20,16 +19,6 @@
   margin-left: 19%;
 }
 
-#r {
-  position: absolute;
-  left: 12%;
-}
-
-#l {
-  position: absolute;
-  left: 125%;
-}
-
 @media (max-width: 555px) {
   #cocktailCarousel {
     width: 300px;
@@ -38,25 +27,14 @@
   #cocktail-inner {
     margin-left: 0;
   }
-
-  #r {
-    left: 0%;
-  }
-
-  #l {
-    left: 100%;
-  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   #cocktailCarousel {
     width: 498px;
   }
   #cocktail-inner {
     margin-left: 18%;
-  }
-  #r {
-    left: 11%;
   }
 }
 
@@ -67,13 +45,21 @@
   #cocktail-inner {
     margin-left: 16%;
   }
-  #l {
-    left: 120%;
-  }
 }
 
 @media (min-width: 1440px) {
   #cocktailCarousel {
     width: 780px;
+  }
+}
+
+@media (min-width: 1450px) {
+  #cocktailCarousel {
+    width: 1400px;
+  }
+
+  .cocktail-carousel-img {
+    height: 1400px;
+    width: 1400px;
   }
 }

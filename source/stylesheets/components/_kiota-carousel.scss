@@ -28,3 +28,14 @@
     margin-left: 0;
   }
 }
+
+@media (min-width: 1450px) {
+  #kiotaCarousel {
+    width: 790px;
+  }
+
+  .carousel-img {
+    // height: 800px;
+    width: 600px;
+  }
+}
