@@ -2,6 +2,7 @@
   background: linear-gradient(#BD8F7A, #BD9589);
   overflow-y: scroll;
 }
+
 #gameCarousel {
   width: 800px;
   // position: relative;
@@ -16,16 +17,54 @@
 }
 
 #game-inner {
-  margin-left: 16%;
+  margin-left: 19%;
 }
 
 #r {
   position: absolute;
-  left: 10%;
+  left: 12%;
 }
 
 #l {
   position: absolute;
-  left: 122%;
+  left: 125%;
+}
 
+@media (max-width: 555px) {
+  #gameCarousel {
+    width: 300px;
+  }
+
+  #game-inner {
+    margin-left: 0;
+  }
+
+  #r {
+    left: 0%;
+  }
+
+  #l {
+    left: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #gameCarousel {
+    width: 498px;
+  }
+  #game-inner {
+    margin-left: 18%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #gameCarousel {
+    width: 668px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #gameCarousel {
+    width: 780px;
+  }
 }

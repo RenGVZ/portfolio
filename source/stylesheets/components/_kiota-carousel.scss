@@ -18,3 +18,13 @@
 .carousel-control {
   width: 0%;
 }
+
+@media (max-width: 555px) {
+  #kiotaCarousel {
+    width: 250px;
+  }
+
+  .carousel-inner {
+    margin-left: 0;
+  }
+}
