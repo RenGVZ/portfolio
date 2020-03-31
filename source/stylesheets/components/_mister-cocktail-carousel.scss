@@ -1,0 +1,79 @@
+.project-cocktail {
+  background: linear-gradient(#BD8F7A, #BD9589);
+  overflow-y: scroll;
+}
+
+#cocktailCarousel {
+  width: 800px;
+  // position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.cocktail-carousel-img {
+  height: 800px;
+  width: 800px;
+}
+
+#cocktail-inner {
+  margin-left: 19%;
+}
+
+#r {
+  position: absolute;
+  left: 12%;
+}
+
+#l {
+  position: absolute;
+  left: 125%;
+}
+
+@media (max-width: 555px) {
+  #cocktailCarousel {
+    width: 300px;
+  }
+
+  #cocktail-inner {
+    margin-left: 0;
+  }
+
+  #r {
+    left: 0%;
+  }
+
+  #l {
+    left: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #cocktailCarousel {
+    width: 498px;
+  }
+  #cocktail-inner {
+    margin-left: 18%;
+  }
+  #r {
+    left: 11%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #cocktailCarousel {
+    width: 668px;
+  }
+  #cocktail-inner {
+    margin-left: 16%;
+  }
+  #l {
+    left: 120%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #cocktailCarousel {
+    width: 780px;
+  }
+}

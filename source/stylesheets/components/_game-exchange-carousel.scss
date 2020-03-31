@@ -55,11 +55,20 @@
   #game-inner {
     margin-left: 18%;
   }
+  #r {
+    left: 11%;
+  }
 }
 
 @media (min-width: 1024px) {
   #gameCarousel {
     width: 668px;
+  }
+  #game-inner {
+    margin-left: 16%;
+  }
+  #l {
+    left: 120%;
   }
 }
 
