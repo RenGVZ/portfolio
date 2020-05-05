@@ -1,6 +1,7 @@
 .project-game {
-  background: linear-gradient(#BD8F7A, #BD9589);
+  background: $background;
   overflow-y: scroll;
+  margin-left: 20%;
 }
 
 #gameCarousel {

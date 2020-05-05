@@ -2,44 +2,32 @@
 title: Gavin Garza
 name: Gavin
 ---
-<section id="1">
-  <div class="landing">
-    <div class="landing-info">
-      <%= image_tag 'avatar.jpg', class: 'avatar' %>
-    </div>
-    <div class="description">
-      <h1> Developer | Based in Tokyo </h1>
-      <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS,</strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. </p>
-      <p><strong>Scroll down to check out a few of my previous projects</strong></p>
-    </div>
-    <i class="fas fa-arrow-circle-down" style="font-size: 70px; color: white;"></i>
+<div class="landing">
+  <div class="landing-info">
+    <%= image_tag 'avatar.jpg', class: 'avatar' %>
   </div>
-</section>
-<div class="project-list">
-  <div class="header">
-    <h1>My projects</h1><hr>
+  <div class="description">
+    <h1> Developer | Based in Tokyo 🗼</h1>
+    <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. <strong>Below are a few of my recent projects:</strong></p>
+      <div class="row home-row">
+        <% link_to '/cocktail.html' do %>
+          <div class="col-sm-4 logo-box">
+            <h2 style="color: #FF9810;">Mr. Cocktail</h2>
+            <%= image_tag 'cocktails.png', class: 'avatar-app' %>
+          </div>
+        <% end %>
+        <% link_to '/kiota.html' do %>
+          <div class="col-sm-4 logo-box">
+            <h2 style="color: #30d384;">Kiota</h2>
+            <%= image_tag 'kiota-test.png', class: 'avatar-app' %>
+          </div>
+        <% end %>
+        <% link_to '/game_exchange.html' do %>
+          <div class="col-sm-4 logo-box">
+            <h2 style="color: #256d8e; font-size: 24px;">Game Exchange</h2>
+            <%= image_tag 'gamepad-lb.png', class: 'avatar-app' %>
+          </div>
+        <% end %>
+      </div>
   </div>
-  <section id="2">
-    <div class="project">
-      <div class="header text-left">
-        <h1>Kiota</h1><hr>
-      </div>
-      <%= partial 'partials/kiota' %>
-    </div>
-  </section>
-
-  <section id="3">
-    <div class="project-game">
-      <div class="header text-left">
-        <h1>Game Exchange</h1><hr>
-      </div>
-      <%= partial 'partials/game-exchange' %>
-    </div>
-  </section>
-
-  <section id="4">
-    <div class="project-cocktail">
-      <%= partial 'partials/mister-cocktail' %>
-    </div>
-  </section>
 </div>

@@ -1,6 +1,6 @@
 .landing {
-  height: 100vh;
-  background: linear-gradient(#B7A8B0, #9C7D61);
+  height: 100%;
+  background: $background;
   margin-left: 20%;
   display: flex;
   justify-content: center;
@@ -16,7 +16,8 @@
 }
 
 .description {
-  margin: 10%; 
+  margin: 10%;
+  width: 90%;
   text-align: center;
   color: white;
 
@@ -25,17 +26,36 @@
   }
 }
 
+@media (max-width: 1140px) {
+  .description {
+    height: 70vh;
+    // width: 100%;
+  }
+}
+
+@media (max-width: 810px){
+  .landing {
+    margin-left: 0%;
+    height: 100%;
+    padding-top: 0;
+    // width: 100%;
+    // margin: 0%;
+  }
+  .description {
+    // width: 100%;
+  }
+}
+
 @media (max-width: 555px) {
   .landing {
     margin-left: 0%;
-    height: 100vh;
-    padding-top: 10%;
+    height: 100%;
+    padding-top: 0;
+    width: 100%;
   }
 
-  .landing-info {
-  }
-  h1 {
-    font-size: 26px;
+  .description {
+    height: 110vh;
   }
 }
 

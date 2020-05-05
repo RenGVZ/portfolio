@@ -1,0 +1,14 @@
+.home-row {
+  display: flex; 
+  justify-content: space-between;
+}
+
+@media (max-width: 555px) {
+  .home-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+   
+  }
+}
