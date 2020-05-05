@@ -1,0 +1,23 @@
+.project1 {
+  background: $boxcolor;
+  width: 90%;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-info {
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+.project-head {
+  text-align: center;
+}
+
+.project-image {
+  margin-right: 10px;
+}
