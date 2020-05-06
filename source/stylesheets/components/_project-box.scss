@@ -27,7 +27,7 @@
 //Other Code
 
 .project-container {
-  margin: 0 auto;
+  margin: 20%;
 }
 
 .project-container .card {
@@ -97,17 +97,9 @@
 }
 
 @media (max-width: 810px) {
-  .project-container .card {
-    display: flex;
-    justify-content: space-evenly;
-    min-height: 100vh;
+  .project-container {
     padding: 30px 0;
     margin-left: 0%;
   }
 
-  .inner-image {
-    height: 40%; 
-    width: 100%;
-  }
-  
 }
