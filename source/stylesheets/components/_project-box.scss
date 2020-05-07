@@ -1,32 +1,7 @@
-.project1 {
-  background: $boxcolor;
-  width: 90%;
-  height: 600px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.project-info {
-  margin-left: 10px; 
-  margin-right: 10px;
-  overflow-wrap: break-word;
-}
-
-.project-head {
-  text-align: center;
-}
-
-.inner-image {
-  height: 100%; 
-  width: 100%;
-}
-// Project code
-
 .project-container {
   width: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .inner-container {
@@ -47,6 +22,14 @@
   padding: 0 10px 0 12px;
 }
 
+.project-title {
+  color: white;
+}
+
+.project-text {
+
+}
+
 .k-pic {
   height: 530px;
 }
@@ -58,7 +41,15 @@
   }
 
   .k-pic {
-    height: 350px;
+    height: 300px;
   }
-  
+  .project-text {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 2240px) {
+  .project-box {
+    margin-top: 10%;
+  }
 }
