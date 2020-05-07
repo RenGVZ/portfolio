@@ -8,88 +8,77 @@ name: Gavin
   </div>
   <div class="description">
     <h1> Developer | Based in Tokyo 🗼</h1>
-    <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. <strong>Below are a few of my recent projects:</strong></p>
+    <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
       <div class="row home-row">
         <% link_to '/cocktail.html' do %>
           <div class="col-sm-4 logo-box">
-            <h2 style="color: #FF9810;">Mr. Cocktail</h2>
+            <h2 class="logo-text" id="cocktail-text">Mr. Cocktail</h2>
             <%= image_tag 'cocktails.png', class: 'avatar-app' %>
           </div>
         <% end %>
         <% link_to '/kiota.html' do %>
           <div class="col-sm-4 logo-box">
-            <h2 style="color: #30d384;">Kiota</h2>
+            <h2 class="logo-text" id="kiota-text">Kiota</h2>
             <%= image_tag 'kiota-test.png', class: 'avatar-app' %>
           </div>
         <% end %>
         <% link_to '/game_exchange.html' do %>
           <div class="col-sm-4 logo-box">
-            <h2 style="color: #256d8e; font-size: 24px;">Game Exchange</h2>
-            <%= image_tag 'gamepad-lb.png', class: 'avatar-app' %>
+            <h2 class="logo-text" id="game-text">Game Exchange</h2>
+            <%= image_tag 'gamepad-lb.png', class: 'avatar-app', id: 'game-icon' %>
           </div>
         <% end %>
       </div>
   </div>
 
-  <div class="project1">
-    <div class="project-info">
-      <h1 class="project-head" style="color: #30d384;">Kiota</h1>
-      <p>kiota is an apartment-hunting app designed for people living in Tokyo, Japan. With kiota, finding an apartment has never been easier or more fun. 
-      </p>
-      <p>It makes use of an engaging series of questions to gauge what is most important to the user. Then, in 'Tinder-like' style it presents the user with a series of properties they may choose to 'swipe right' or 'swipe-left' on. Once they have selected their favorites, the user can then get into contact with the property owner or real estate agent to set up a time and place to view the properties they like. 
-      </p>
-      <p>kiota uses many technologies, mainly Ruby on Rails but also Javascript, Active Record database management, Bootstrap and CSS. Designed primarily for mobile applications. Find kiota here: http://www.kiota.xyz
-      </p>
-    </div>
-    <div class="project-image">
-      <%= image_tag 'kiota1.jpg', class: "photo"%>
-    </div>
-  </div>
-
-</div>
-
   <div class="project-container">
     <div class="inner-container">
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4 text-center">Projects
+        <small>Created by Gavin</small>
       </h1>
       <!-- Project Kiota -->
-      <div class="row d-block">
-        <div class="col-sm-8 col-md-7 text-center">
-          <a href="#">
-            <%= image_tag 'kiota1.jpg', class: 'img-thumbnail', style: 'height: 450px;'%>
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+      <div class="project-box">
+        <div class="row d-block">
+          <div class="col-sm-8 col-md-7 text-center">
+            <a href="#">
+              <%= image_tag 'kiota1.jpg', class: 'img-thumbnail k-pic'%>
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
         </div>
       </div>
       <!-- Project Game Exchange -->
-      <div class="row d-block">
-        <div class="col-sm-8 col-md-7 text-center">
-          <a href="#">
-            <%= image_tag 'game_exchange1.png', class: 'img-thumbnail'%>
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+      <div class="project-box">
+        <div class="row d-block">
+          <div class="col-sm-8 col-md-7 text-center">
+            <a href="#">
+              <%= image_tag 'game_exchange1.png', class: 'img-thumbnail'%>
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
         </div>
       </div>
       <!-- Project Cocktail -->
-      <div class="row d-block">
-        <div class="col-sm-8 col-md-7 text-center">
-          <a href="#">
-            <%= image_tag 'cocktail1.png', class: 'img-thumbnail'%>
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+      <div class="project-box">
+        <div class="row d-block">
+          <div class="col-sm-8 col-md-7 text-center">
+            <a href="#">
+              <%= image_tag 'cocktail1.png', class: 'img-thumbnail'%>
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Project One</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+            <a class="btn btn-primary" href="#">View Project</a>
+          </div>
         </div>
       </div>
         

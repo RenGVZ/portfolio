@@ -26,7 +26,6 @@
 // Project code
 
 .project-container {
-  margin-left: 20%;
   width: auto;
 }
 
@@ -38,11 +37,28 @@
   padding-right: 15px;
 }
 
+.project-box {
+  // background: $boxcolor;
+  border-radius: 4px;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 0 10px 0 12px;
+}
+
+.k-pic {
+  height: 530px;
+}
 
 @media (max-width: 810px) {
   .project-container {
     margin-left: 0%;
     width: auto;
+  }
+
+  .k-pic {
+    height: 350px;
   }
   
 }

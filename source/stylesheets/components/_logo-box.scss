@@ -1,12 +1,37 @@
 .logo-box {
   background-color: $boxcolor;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 20px;
-  margin: 1px;
+  margin-top: 4rem;
 }
 
 .logo-box:hover {
   background-color: #efefef;
   text-decoration: none;
+}
+
+.logo-text {
+  font-size: 18px;
+}
+
+#kiota-text {
+  color: #30d384;
+}
+
+#game-text {
+  color: #256d8e;
+  font-size: 16px;
+}
+
+#cocktail-text {
+  color: #FF9810;
+}
+
+@media(max-width: 810px) {
+  .logo-box {
+    height: 160px;
+    width: 160px;
+    padding-top: 1px;
+  }
 }
