@@ -31,7 +31,11 @@
 }
 
 .k-pic {
-  height: 530px;
+  height: 440px;
+}
+
+#k-row {
+  display: flex;
 }
 
 @media (max-width: 810px) {
