@@ -1,0 +1,13 @@
+.main-btn {
+  background: $boxcolor;
+  color: $index-text-color;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+}
