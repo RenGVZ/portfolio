@@ -2,30 +2,30 @@
 title: Gavin Garza
 name: Gavin
 ---
-<div class="landing">
+<div class="landing" id="1">
   <div class="landing-info">
     <%= image_tag 'avatar.jpg', class: 'avatar' %>
   </div>
   <div class="description">
     <h1> Developer | <small>Based in Tokyo</small>🗼</h1>
-    <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that improve the lives of others and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
+    <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that make life more interesting and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
       <div class="row home-row">
-        <% link_to '/cocktail.html' do %>
-          <div class="col-sm-4 logo-box">
-            <h2 class="logo-text" id="cocktail-text">Mr. Cocktail</h2>
-            <%= image_tag 'cocktails.png', class: 'avatar-app' %>
-          </div>
-        <% end %>
-        <% link_to '/kiota.html' do %>
+        <% link_to 'http://www.kiota.xyz', target: "_blank" do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="kiota-text">Kiota</h2>
             <%= image_tag 'kiota-test.png', class: 'avatar-app' %>
           </div>
         <% end %>
-        <% link_to '/game_exchange.html' do %>
+        <% link_to 'https://game-exchange1.herokuapp.com', target: "_blank" do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="game-text">Game Exchange</h2>
             <%= image_tag 'gamepad-lb.png', class: 'avatar-app', id: 'game-icon' %>
+          </div>
+        <% end %>
+        <% link_to 'https://mister-cocktail2020.herokuapp.com', target: "_blank" do %>
+          <div class="col-sm-4 logo-box">
+            <h2 class="logo-text" id="cocktail-text">Mr. Cocktail</h2>
+            <%= image_tag 'cocktails.png', class: 'avatar-app' %>
           </div>
         <% end %>
       </div>
@@ -39,7 +39,8 @@ name: Gavin
     <div class="inner-container">
       
       <!-- Project Kiota -->
-      <div class="project-box">
+      
+      <div class="project-box" id="2">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="#">
@@ -57,8 +58,9 @@ name: Gavin
           </div>
         </div>
       </div>
+      
       <!-- Project Game Exchange -->
-      <div class="project-box">
+      <div class="project-box" id="3">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="#">
@@ -76,8 +78,9 @@ name: Gavin
           </div>
         </div>
       </div>
+
       <!-- Project Cocktail -->
-      <div class="project-box">
+      <div class="project-box" id="4">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="#">
