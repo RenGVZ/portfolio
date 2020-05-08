@@ -3,8 +3,10 @@
  * ------------------------------------- */
 // Google fonts
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+$base-font: "Josefin Sans", "Helvetica", "sans-serif";
+$header-font: "Inconsolata", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -24,7 +26,7 @@ $base-height: 1.4;
  * Colors
  * ------------------------------------- */
 // Scheme
-$background: linear-gradient(#B7A8B0, #9C7D61);
+$background: #B7A8B0;
 $boxcolor: #dedada;
 $index-text-color: white;
 
