@@ -20,6 +20,10 @@
     width: 40px;
   }
 
+  .description p {
+    font-size: 15px;
+  }
+
   #game-icon {
     height: 40px;
     width: 40px;
@@ -27,5 +31,16 @@
 
   #game-text {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .kiota {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .mister-cocktail {
+    margin-top: -10%;
   }
 }
