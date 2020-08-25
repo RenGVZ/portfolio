@@ -6,8 +6,17 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
+  transition: box-shadow .6s ease-out;
+  // transition: text-decoration 1s ease-out; 
 }
 
 .main-btn:hover {
   text-decoration: none;
+  color: $index-text-color;
+  box-shadow: 2px 3px 17px -3px rgba(0,0,0,0.59);
+}
+
+.main-btn:focus {
+  text-decoration: none;
+  color: $index-text-color;
 }

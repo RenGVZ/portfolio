@@ -10,24 +10,24 @@ name: Gavin
   </div>
   <div class="description">
     <h1> Full Stack Developer | <small>Based in Tokyo</small>🗼</h1>
-    <p>Hi my name is Gavin and I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Ruby On Rails, Ruby, Javascript, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that make life more interesting and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
+    <p>Hi my name is Gavin, I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>React, Ruby On Rails, Ruby, ES6 JS, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that make life more interesting and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
       <div class="row home-row">
+        <% link_to 'https://rengvz.github.io/react-giphy-project/', target: "_blank" do %>
+          <div class="col-sm-4 logo-box">
+            <h2 class="logo-text" id="giphy-text">Giphy</h2>
+            <%= image_tag 'giphy-logo-1.svg', class: 'avatar-app' %>
+          </div>
+        <% end %>
+        <% link_to 'https://complex-barbershop.herokuapp.com', target: "_blank" do %>
+          <div class="col-sm-4 logo-box">
+            <h2 class="logo-text" id="complex-text">The Complex</h2>
+            <%= image_tag 'complex-circle.png', class: 'avatar-app' %>
+          </div>
+        <% end %>
         <% link_to 'http://www.kiota.xyz', target: "_blank" do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="kiota-text">Kiota</h2>
             <%= image_tag 'kiota-test.png', class: 'avatar-app' %>
-          </div>
-        <% end %>
-        <% link_to 'https://game-exchange1.herokuapp.com', target: "_blank" do %>
-          <div class="col-sm-4 logo-box">
-            <h2 class="logo-text" id="game-text">Game Exchange</h2>
-            <%= image_tag 'gamepad-lb.png', class: 'avatar-app', id: 'game-icon' %>
-          </div>
-        <% end %>
-        <% link_to 'https://mister-cocktail2020.herokuapp.com', target: "_blank" do %>
-          <div class="col-sm-4 logo-box">
-            <h2 class="logo-text" id="cocktail-text">Mr. Cocktail</h2>
-            <%= image_tag 'cocktails.png', class: 'avatar-app' %>
           </div>
         <% end %>
       </div>
@@ -40,8 +40,32 @@ name: Gavin
   <div class="project-container">
     <div class="inner-container">
 
-    <!-- Project Complexx -->
+    <!-- Project Giphy -->
       <div class="project-box" id="2">
+        <div class="row d-block">
+          <div class="col-sm-8 col-md-7 text-center">
+            <a href="https://rengvz.github.io/react-giphy-project/" >
+              <%= image_tag 'react-giphy.png', class: 'img-thumbnail'%>
+            </a>
+          </div>
+          <div class="col-md-5 project-text">
+            <h3 class="project-title">Giphy API Project <small>Created with React</small></h3>
+            <p>A fun app created to experiment in <strong>React</strong> using different API's.</p>
+            
+            <p>Try typing something in the search bar and get a list of related giphs! A simple and interactive SPA.</p>
+            <p>Made with the Giphy API.</p>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://rengvz.github.io/react-giphy-project/" target="_blank" style="">View Giphy Project</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/react-giphy-project" target="_blank" style="">GitHub Repo</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Complexx -->
+      <div class="project-box" id="3">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://complex-barbershop.herokuapp.com" >
@@ -55,14 +79,19 @@ name: Gavin
             <p>Using figma to create a mockup I then proceded to code the entire site in HTML/CSS and Javascript, using Ruby and Active Record's database functionality when necessary.</p>
             <p>While creating this project I honed in on sound design principles and made responsiveness a key feature of the website.</p>
             <p>This was my introduction to making stylish and visually-appealing freelance projects.</p>
-            <a class="main-btn" href="https://complex-barbershop.herokuapp.com">View The Complex</a>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://complex-barbershop.herokuapp.com" target="_blank" style="">View The Complex</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/complex-rails" target="_blank" style="">GitHub Repo</a></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       
       <!-- Project Kiota -->
       
-      <div class="project-box kiota" id="3">
+      <div class="project-box kiota" id="4">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center" id="k-row">
             <a href="http://www.kiota.xyz/" target="_blank">
@@ -73,12 +102,17 @@ name: Gavin
             </a>
           </div>
           <div class="col-md-5 project-text">
-            <h3 class="project-title">kiota <small>Created in 5 weeks</small></h3>
+            <h3 class="project-title">Kiota <small>Created in 5 weeks</small></h3>
             <p>kiota is an apartment-hunting app designed for people living in Tokyo, Japan. With kiota, finding an apartment has never been easier or more fun.</p>
             <p>It makes use of an engaging series of questions to gauge what is most important to the user. Then, in 'Tinder-like' style it presents the user with a series of properties they may choose to 'swipe right' or 'swipe-left' on.</p>
             <p>Once they have selected their favorites, the user can then get into contact with the property owner or real estate agent to set up a time and place to view the properties they've liked.</p>
             <p>kiota uses many technologies, mainly Ruby on Rails but also Javascript, Active Record database management, Bootstrap and CSS. Designed primarily for mobile users.</p>
-            <a class="main-btn" href="http://www.kiota.xyz/" target="_blank" style="margin-bottom: 42px;">View kiota</a>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="http://www.kiota.xyz/" target="_blank" style="">View Kiota</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/kiota" target="_blank" style="">GitHub Repo</a></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -86,7 +120,7 @@ name: Gavin
       
       
       <!-- Project Game Exchange -->
-      <div class="project-box game-exchange" id="4">
+      <div class="project-box game-exchange" id="5">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://game-exchange1.herokuapp.com" target="_blank">
@@ -103,13 +137,18 @@ name: Gavin
             <p>Both of these people can be satisfied with Game Exchange, a market place app that connects people who love their video games.</p>
             <p>Game Exchange was a project created throughout the course of 1 week using Ruby on Rails, HTML and CSS.</p>
             <p>This was my first group project and it introduced me to collaborating with team members through Git. I also gained the valuable experience of using teamwork to tackle significant coding challenges.</p>
-            <a class="main-btn" href="https://game-exchange1.herokuapp.com" target="_blank">View Game Exchange</a>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://game-exchange1.herokuapp.com" target="_blank" style="">View Game Exchange</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/game-exchange" target="_blank" style="">GitHub Repo</a></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Project Cocktail -->
-      <div class="project-box mister-cocktail" id="5">
+      <div class="project-box mister-cocktail" id="6">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://mister-cocktail2020.herokuapp.com" target="_blank">
@@ -122,7 +161,12 @@ name: Gavin
             <p>It's also possible to add the cocktail's ingredients so you never forget how to make the perfect one.</p>
             <p>This was my first Ruby on Rails project and with it I gained valuable insight into creating relational databases and using digital asset management services.</p>
             <p>Developed in 3 days using Ruby on Rails.</p>
-            <a class="main-btn" href="https://mister-cocktail2020.herokuapp.com" target="_blank">View Mr. Cocktail</a>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://mister-cocktail2020.herokuapp.com" target="_blank" style="">View Mr. Cocktail</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/rails-mister-cocktail" target="_blank" style="">GitHub Repo</a></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
