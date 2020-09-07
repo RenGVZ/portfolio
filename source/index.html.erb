@@ -12,22 +12,22 @@ name: Gavin
     <h1> Full Stack Developer | <small>Based in Tokyo</small>🗼</h1>
     <p>Hi my name is Gavin, I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>React, Ruby On Rails, Ruby, ES6 JS, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that make life more interesting and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
       <div class="row home-row">
-        <% link_to 'https://rengvz.github.io/react-giphy-project/', target: "_blank" do %>
-          <div class="col-sm-4 logo-box">
-            <h2 class="logo-text" id="giphy-text">Giphy</h2>
-            <%= image_tag 'giphy-logo-1.svg', class: 'avatar-app' %>
-          </div>
-        <% end %>
         <% link_to 'https://www.thecomplexbarber.shop', target: "_blank" do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="complex-text">The Complex</h2>
             <%= image_tag 'complex-circle.png', class: 'avatar-app' %>
           </div>
         <% end %>
-        <% link_to 'http://www.kiota.xyz', target: "_blank" do %>
+        <% link_to 'https://github.com/RenGVZ/kiota', target: "_blank" do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="kiota-text">Kiota</h2>
             <%= image_tag 'kiota-test.png', class: 'avatar-app' %>
+          </div>
+        <% end %>
+        <% link_to 'https://rengvz.github.io/react-giphy-project/', target: "_blank" do %>
+          <div class="col-sm-4 logo-box">
+            <h2 class="logo-text" id="giphy-text">Giphy</h2>
+            <%= image_tag 'giphy-logo-1.svg', class: 'avatar-app' %>
           </div>
         <% end %>
       </div>
@@ -40,32 +40,8 @@ name: Gavin
   <div class="project-container">
     <div class="inner-container">
 
-    <!-- Project Giphy -->
-      <div class="project-box" id="2">
-        <div class="row d-block">
-          <div class="col-sm-8 col-md-7 text-center">
-            <a href="https://rengvz.github.io/react-giphy-project/" >
-              <%= image_tag 'react-giphy.png', class: 'img-thumbnail'%>
-            </a>
-          </div>
-          <div class="col-md-5 project-text">
-            <h3 class="project-title">Giphy API Project <small>Created with React</small></h3>
-            <p>A fun app created to experiment in <strong>React</strong> using different API's.</p>
-            
-            <p>Try typing something in the search bar and get a list of related giphs! A simple and interactive SPA.</p>
-            <p>Made with the Giphy API.</p>
-            <div class="d-flex flex-row link-btns">
-              <div class="row">
-                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://rengvz.github.io/react-giphy-project/" target="_blank" style="">View Giphy Project</a></div>
-                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/react-giphy-project" target="_blank" style="">GitHub Repo</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     <!-- Project Complexx -->
-      <div class="project-box" id="3">
+      <div class="project-box" id="2">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://www.thecomplexbarber.shop/" >
@@ -91,13 +67,13 @@ name: Gavin
       
       <!-- Project Kiota -->
       
-      <div class="project-box kiota" id="4">
+      <div class="project-box kiota" id="3">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center" id="k-row">
-            <a href="http://www.kiota.xyz/" target="_blank">
+            <a href="https://github.com/RenGVZ/kiota" target="_blank">
               <%= image_tag 'kiota1.jpg', class: 'img-thumbnail k-pic'%>
             </a>
-            <a href="http://www.kiota.xyz/" target="_blank">
+            <a href="https://github.com/RenGVZ/kiota" target="_blank">
               <%= image_tag 'kiota4.jpg', class: 'img-thumbnail k-pic'%>
             </a>
           </div>
@@ -117,7 +93,29 @@ name: Gavin
         </div>
       </div>
 
-      
+      <!-- Project Giphy -->
+      <div class="project-box" id="4">
+        <div class="row d-block">
+          <div class="col-sm-8 col-md-7 text-center">
+            <a href="https://rengvz.github.io/react-giphy-project/" >
+              <%= image_tag 'react-giphy.png', class: 'img-thumbnail'%>
+            </a>
+          </div>
+          <div class="col-md-5 project-text">
+            <h3 class="project-title">Giphy API Project <small>Created with React</small></h3>
+            <p>A fun app created to experiment in <strong>React</strong> using different API's.</p>
+            
+            <p>Try typing something in the search bar and get a list of related giphs! A simple and interactive SPA.</p>
+            <p>Made with the Giphy API.</p>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://rengvz.github.io/react-giphy-project/" target="_blank" style="">View Giphy Project</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10%"><a class="main-btn" href="https://github.com/RenGVZ/react-giphy-project" target="_blank" style="">GitHub Repo</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <!-- Project Game Exchange -->
       <div class="project-box game-exchange" id="5">
