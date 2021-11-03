@@ -10,24 +10,24 @@ name: Gavin
   </div>
   <div class="description">
     <h1> Full Stack Developer | <small>Based in Tokyo</small>🗼</h1>
-    <p>Hi my name is Gavin, I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>React, Ruby On Rails, Ruby, ES6 JS, HTML/CSS, Figma </strong> and <strong> Bootstrap</strong>. I enjoy building things that make life more interesting and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
+    <p>Hi my name is Gavin, I'm a Full Stack Developer currently living in Tokyo. The technologies I have experience with are <strong>Vue, React, Laravel Ruby On Rails, Ruby </strong> and <strong> Adobe XD</strong>. I enjoy building things that make life more interesting and I'm always looking to learn more. <strong>Below are a few of my most recent projects:</strong></p>
       <div class="row home-row">
-        <% link_to 'https://www.thecomplexbarber.shop', target: "_blank" do %>
+      <% link_to '#2', class: 'links' do %>
+          <div class="col-sm-4 logo-box">
+            <h2 class="logo-text" id="weatherly-text">Undone</h2>
+            <%= image_tag 'undone-black.png', class: 'avatar-app', style: 'border-radius: 100%' %>
+          </div>
+        <% end %>
+        <% link_to '#3', class: 'links' do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="complex-text">The Complex</h2>
             <%= image_tag 'complex-circle.png', class: 'avatar-app' %>
           </div>
         <% end %>
-        <% link_to 'https://github.com/RenGVZ/kiota', target: "_blank" do %>
+        <% link_to '#4', class: 'links' do %>
           <div class="col-sm-4 logo-box">
             <h2 class="logo-text" id="kiota-text">Kiota</h2>
             <%= image_tag 'kiota-test.png', class: 'avatar-app' %>
-          </div>
-        <% end %>
-        <% link_to 'https://weather-ly-spa.netlify.app/', target: "_blank" do %>
-          <div class="col-sm-4 logo-box">
-            <h2 class="logo-text" id="weatherly-text">Weatherly</h2>
-            <%= image_tag 'weatherly.png', class: 'avatar-app' %>
           </div>
         <% end %>
       </div>
@@ -40,8 +40,33 @@ name: Gavin
   <div class="project-container">
     <div class="inner-container">
 
-    <!-- Project Complexx -->
+    <!-- Project Undone -->
       <div class="project-box" id="2">
+        <div class="row d-block">
+          <div class="col-sm-8 col-md-7 text-center">
+            <a href="https://www.undone.com/en/" >
+              <%= image_tag 'undone-hk.png', class: 'img-thumbnail'%>
+            </a>
+          </div>
+          <div class="col-md-5 project-text">
+            <h3 class="project-title">Undone <small>Vue developer</small></h3>
+            <p>Lead FE Engineer for Undone, a Hong Kong-based company specializing in customizable watches.</p>
+            
+            <p>Tech Stack: Vue, Laravel, SQL</p>
+            <p>Over 25 pages built during my time with Undone. Many of the pages were collaborations with global brands such as Marvel, Universal, Sanrio, etc.</p>
+            <p>Below are a few samples of the pages I worked on:</p>
+            <div class="d-flex flex-row link-btns">
+              <div class="row">
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://undone.co.jp/collection/stellar" target="_blank" style="">Undone Stellar Collection</a></div>
+                <div class="col-md-6 col-sm-3" style="margin-bottom: 10px"><a class="main-btn" href="https://undone.co.jp/collaboration/spacejam" target="_blank" style="">Undone x Space Jam</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Project Complexx -->
+      <div class="project-box" id="3">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://www.thecomplexbarber.shop/" >
@@ -67,7 +92,7 @@ name: Gavin
       
       <!-- Project Kiota -->
       
-      <div class="project-box kiota" id="3">
+      <div class="project-box kiota" id="4">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center" id="k-row">
             <a href="https://github.com/RenGVZ/kiota" target="_blank">
@@ -94,7 +119,7 @@ name: Gavin
       </div>
 
       <!-- Project Weatherly -->
-      <div class="project-box" id="4">
+      <div class="project-box" id="5">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://weather-ly-spa.netlify.app/" >
@@ -116,7 +141,7 @@ name: Gavin
       </div>
 
       <!-- Project Giphy -->
-      <div class="project-box" id="5">
+      <div class="project-box" id="6">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://rengvz.github.io/react-giphy-project/" >
@@ -140,7 +165,7 @@ name: Gavin
       </div>
       
       <!-- Project Game Exchange -->
-      <div class="project-box game-exchange" id="6">
+      <div class="project-box game-exchange" id="7">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://game-exchange1.herokuapp.com" target="_blank">
@@ -168,7 +193,7 @@ name: Gavin
       </div>
 
       <!-- Project Cocktail -->
-      <div class="project-box mister-cocktail" id="7">
+      <div class="project-box mister-cocktail" id="8">
         <div class="row d-block">
           <div class="col-sm-8 col-md-7 text-center">
             <a href="https://mister-cocktail2020.herokuapp.com" target="_blank">

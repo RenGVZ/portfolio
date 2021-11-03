@@ -41,6 +41,8 @@
 }
 
 .sidebar-menu {
+  overflow: scroll;
+  height: 500px;
   ul {
     list-style: none;
     width: 100%;

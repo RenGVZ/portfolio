@@ -31,6 +31,10 @@
   font-size: 38px;
 }
 
+.links:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 1140px) {
   .description {
     height: auto;
@@ -51,6 +55,9 @@
     height: 100%;
     padding-top: 0;
     width: 100%;
+  }
+  .description {
+    width: 90%;
   }
   
 }
