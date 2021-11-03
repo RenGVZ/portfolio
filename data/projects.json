@@ -1,0 +1,162 @@
+{
+  "projects": [
+    {
+      "id": 2,
+      "mainLink": "https://www.undone.com/en",
+      "image": "undone-hk.png",
+      "projectTitleMain": "Undone",
+      "projectTitleSub": "Vue developer",
+      "lines": [
+        "Lead FE Engineer for Undone, a Hong Kong-based company specializing in customizable watches.",
+        "Tech Stack: Vue, Laravel, SQL, Tailwind",
+        "Over 25 pages built during my time with Undone. Many of the pages were collaborations with global brands such as Marvel, Universal, Sanrio, etc.",
+        "Below are a few samples of the pages I worked on:"
+      ],
+      "bottomLinks": [
+        {
+          "title": "Undone Stellar Collection",
+          "link": "https://undone.co.jp/collection/stellar"
+        },
+        {
+          "title": "Undone x Space Jam",
+          "link": "https://undone.co.jp/collaboration/spacejam"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "mainLink": "https://www.thecomplexbarber.shop",
+      "image": "complex1.png",
+      "projectTitleMain": "The Complex",
+      "projectTitleSub": "Freelance project",
+      "lines": [
+        "A Ruby-On-Rails website made to boost a client's exposure online.",
+        "Using figma to create a mockup I then proceded to code the entire site in HTML/CSS and Javascript, using Ruby and Active Record's database functionality when necessary.",
+        "While creating this project I honed in on sound design principles and made responsiveness a key feature of the website.",
+        "This was my introduction to making stylish and visually-appealing freelance projects."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View The Complex",
+          "link": "https://www.thecomplexbarber.shop"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/complex-rails"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "mainLink": "https://github.com/RenGVZ/kiota",
+      "image": "kiota-collection3.png",
+      "projectTitleMain": "Kiota",
+      "projectTitleSub": "Created in 5 weeks",
+      "lines": [
+        "kiota is an apartment-hunting app designed for people living in Tokyo, Japan. With kiota, finding an apartment has never been easier or more fun.",
+        "It makes use of an engaging series of questions to gauge what is most important to the user. Then, in 'Tinder-like' style it presents the user with a series of properties they may choose to 'swipe right' or 'swipe-left' on.",
+        "Once they have selected their favorites, the user can then get into contact with the property owner or real estate agent to set up a time and place to view the properties they've liked.",
+        "kiota uses many technologies, mainly Ruby on Rails but also Javascript, Active Record database management, Bootstrap and CSS. Designed primarily for mobile users."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Kiota",
+          "link": "http://www.kiota.xyz"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/kiota"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "mainLink": "https://weather-ly-spa.netlify.app",
+      "image": "weatherly_pic.png",
+      "projectTitleMain": "Weatherly App",
+      "projectTitleSub": "Created with React",
+      "lines": [
+        "Using the OpenWeather API this app can get current weather updates for any location on Earth.",
+        "The background and weather icons all change depending on your city's weather conditions."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Weatherly Project",
+          "link": "https://weather-ly-spa.netlify.app"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/react-weather-tut"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "mainLink": "https://rengvz.github.io/react-giphy-project",
+      "image": "react-giphy.png",
+      "projectTitleMain": "Giphy API Project",
+      "projectTitleSub": "Created with React",
+      "lines": [
+        "A fun app created to experiment in React using different API's.",
+        "Try typing something in the search bar and get a list of related giphs! A simple and interactive SPA.",
+        "Made with the Giphy API."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Giphy Project",
+          "link": "https://rengvz.github.io/react-giphy-project"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/react-giphy-project"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "mainLink": "https://game-exchange1.herokuapp.com",
+      "image": "game_exchange1.png",
+      "projectTitleMain": "Game Exchange",
+      "projectTitleSub": "Created in 1 week",
+      "lines": [
+        "Game Exchange is an app that connects two kinds of people, people who want to rent their old games for cash and people who want to play the newest games but not have to pay the high prices to own them.",
+        "Both of these people can be satisfied with Game Exchange, a market place app that connects people who love their video games.",
+        "Game Exchange was a project created throughout the course of 1 week using Ruby on Rails, HTML and CSS.",
+        "This was my first group project and it introduced me to collaborating with team members through Git. I also gained the valuable experience of using teamwork to tackle significant coding challenges."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Game Exchange",
+          "link": "https://game-exchange1.herokuapp.com"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/game-exchange"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "mainLink": "https://mister-cocktail2020.herokuapp.com",
+      "image": "cocktail1.png",
+      "projectTitleMain": "Mr. Cocktail",
+      "projectTitleSub": "Created in 2 days",
+      "lines": [
+        "Mister Cocktail is an app that allows you to create and archive your favorite cocktails all in one convenient place.",
+        "It's also possible to add the cocktail's ingredients so you never forget how to make the perfect one.",
+        "This was my first Ruby on Rails project and with it I gained valuable insight into creating relational databases and using digital asset management services.",
+        "Developed in 3 days using Ruby on Rails."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Mr. Cocktail",
+          "link": "https://mister-cocktail2020.herokuapp.com"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/rails-mister-cocktail"
+        }
+      ]
+    }
+  ]
+}

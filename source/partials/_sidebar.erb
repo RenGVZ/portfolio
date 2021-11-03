@@ -8,17 +8,18 @@
 
       <div class="sidebar-menu">
         <ul>
-          <li> <a href="#1">About Me</a> </li><hr>
-              <li> <a href="#2">Undone</a></li><hr>
-              <li> <a href="#3">The Complex</a></li><hr>
-              <li> <a href="#4">Kiota</a></li><hr>
-              <li> <a href="#5">Weatherly</a></li><hr>
-              <li> <a href="#6">Giphy Project</a></li><hr>
-              <li> <a href="#7">Game Exchange</a></li><hr>
-              <li> <a href="#8">Mister Cocktail</a></li>
-           
-          <hr>
-          <li><%= link_to "My Resume(CV)", 'https://drive.google.com/file/d/1o-nb6sAjGI2lTyKJ-fQ1jbLLih6LbIAG/view?usp=sharing', target: "_blank" %></li><hr>
+          <li> 
+              <a href="#1">About Me</a> </li><hr>
+              <% data.projects.projects.each do |project| %>
+                <li>
+                  <a 
+                    href='#<%= project.id %>' >
+                    <%= project.projectTitleMain %>  
+                  </a>
+                </li><hr>
+              <% end %>
+             
+          <li><%= link_to "My Resume(CV)", data.resume.link, target: "_blank" %></li><hr>
         </ul>
       </div>
 
