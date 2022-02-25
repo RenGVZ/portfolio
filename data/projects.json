@@ -2,6 +2,29 @@
   "projects": [
     {
       "id": 2,
+      "mainLink": "https://www.upbond.io/",
+      "image": "upbond2.png",
+      "projectTitleMain": "Upbond",
+      "projectTitleSub": "React Developer",
+      "lines": [
+        "SAAS tool which provides CIAM (similar to Auth0) and automated marketing services.",
+        "Project stack includes React, AWS Lambda Functions and MongoDB.",
+        "I implemented several client-facing features in React, including a customizable analytics page, as well as a reservation feature for Upbond's MyPage service.",
+        "In addition to FE Developer, my roles included Head UI/UX Designer and Assistant Project Manager."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Upbond",
+          "link": "https://www.upbond.io/"
+        },
+        {
+          "title": "GH repo is private",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
       "mainLink": "https://www.undone.com/en",
       "image": "undone-hk.png",
       "projectTitleMain": "Undone",
@@ -9,40 +32,17 @@
       "lines": [
         "Lead FE Engineer for Undone, a Hong Kong-based company specializing in customizable watches.",
         "Tech Stack: Vue, Laravel, SQL, Tailwind",
-        "Over 25 pages built during my time with Undone. Many of the pages were collaborations with global brands such as Marvel, Universal, Sanrio, etc.",
-        "Below are a few samples of the pages I worked on:"
+        "Over 25 pages developed during my time with Undone. Many of the pages were collaborations with global brands such as Marvel, Universal, Sanrio, etc.",
+        "Below are a few samples of the pages I've worked on:"
       ],
       "bottomLinks": [
         {
           "title": "Undone Stellar Collection",
-          "link": "https://undone.co.jp/collection/stellar"
+          "link": "https://undone.co.jp/collaboration/stellar"
         },
         {
           "title": "Undone x Space Jam",
           "link": "https://undone.co.jp/collaboration/spacejam"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "mainLink": "https://www.thecomplexbarber.shop",
-      "image": "complex1.png",
-      "projectTitleMain": "The Complex",
-      "projectTitleSub": "Freelance project",
-      "lines": [
-        "A Ruby-On-Rails website made to boost a client's exposure online.",
-        "Using figma to create a mockup I then proceded to code the entire site in HTML/CSS and Javascript, using Ruby and Active Record's database functionality when necessary.",
-        "While creating this project I honed in on sound design principles and made responsiveness a key feature of the website.",
-        "This was my introduction to making stylish and visually-appealing freelance projects."
-      ],
-      "bottomLinks": [
-        {
-          "title": "View The Complex",
-          "link": "https://www.thecomplexbarber.shop"
-        },
-        {
-          "title": "GitHub Repo",
-          "link": "https://github.com/RenGVZ/complex-rails"
         }
       ]
     },
