@@ -48,6 +48,29 @@
     },
     {
       "id": 4,
+      "mainLink": "https://github.com/RenGVZ/next-app",
+      "image": "koala-market.png",
+      "projectTitleMain": "Koala",
+      "projectTitleSub": "Next JS React Project",
+      "lines": [
+        "Tech stack: Next JS, Sanity CMS, Stripe payment system, hosted on Vercel.",
+        "I started this project because I was interested in building an ecommerce site from the ground up.",
+        "I wanted to know how I could handle real-world, full stack EC problems related to data persistance, payment processing, etc.",
+        "This is a fully rendered, full stack EC application developed with the most cutting edge web development practices."
+      ],
+      "bottomLinks": [
+        {
+          "title": "View Koala Market",
+          "link": "https://next-app-koala-market.vercel.app/"
+        },
+        {
+          "title": "GitHub Repo",
+          "link": "https://github.com/RenGVZ/next-app"
+        }
+      ]
+    },
+    {
+      "id": 5,
       "mainLink": "https://github.com/RenGVZ/kiota",
       "image": "kiota-collection3.png",
       "projectTitleMain": "Kiota",
@@ -61,32 +84,11 @@
       "bottomLinks": [
         {
           "title": "View Kiota",
-          "link": "http://www.kiota.xyz"
+          "link": "https://github.com/RenGVZ/kiota"
         },
         {
           "title": "GitHub Repo",
           "link": "https://github.com/RenGVZ/kiota"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "mainLink": "https://weather-ly-spa.netlify.app",
-      "image": "weatherly_pic.png",
-      "projectTitleMain": "Weatherly App",
-      "projectTitleSub": "Created with React",
-      "lines": [
-        "Using the OpenWeather API this app can get current weather updates for any location on Earth.",
-        "The background and weather icons all change depending on your city's weather conditions."
-      ],
-      "bottomLinks": [
-        {
-          "title": "View Weatherly Project",
-          "link": "https://weather-ly-spa.netlify.app"
-        },
-        {
-          "title": "GitHub Repo",
-          "link": "https://github.com/RenGVZ/react-weather-tut"
         }
       ]
     },
